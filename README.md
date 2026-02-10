@@ -27,12 +27,12 @@ Key Features and System Processes:
 - Data Management and Integrity
 
 Related tables:
-One user → many projects
-One user → many applications
-One project → many applications
-Many users ↔ many courses 
-Many projects ↔ many skills 
-Many users ↔ many skills 
+- One user → many projects
+- One user → many applications
+- One project → many applications
+- Many users ↔ many courses 
+- Many projects ↔ many skills 
+- Many users ↔ many skills 
 
 # 4. Problem Statement
 Many IT students face difficulties entering the job market due to a lack of practical experience, real projects, and professional mentorship.
