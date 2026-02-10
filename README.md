@@ -91,10 +91,10 @@ As a result of this project:
 - The system will demonstrate effective use of relational databases, including tables, relationships, and SQL queries
 
 # 10. Conclusion
-- This will be recorded at the end of the project.
+This will be recorded at the end of the project.
 # 11. References
-- Tutorials, websites, or documentation used
-- (This is recorded at the end of the project)
+Tutorials, websites, or documentation used
+(This is recorded at the end of the project)
 12. Appendix
 - Important code snippets             - Additional charts or tables
-- (This is recorded at the end of the project)
+(This is recorded at the end of the project)
