@@ -74,10 +74,10 @@ Administrators – manage users and system data
 # 8. Project Timeline (5 Weeks)
 | Week                           |           Activities                   |
 |------------------------       |-------------------------------------|
-| Week 1(06.Feb ~ 13.Feb)  | project planning                    |
-| Week 2(13.Feb ~ 20.Feb)  | BPM,Use case(?)                  |
-| Week 3(20.Feb ~ 27.Feb)  | BPM,Use case(?)                  |
-| Week 4(27.Feb ~ 06.Mar)  | ERD?                                 |
+| Week 1(06.Feb ~ 13.Feb)  | Project planning                    |
+| Week 2(13.Feb ~ 20.Feb)  | BPM,Use case                |
+| Week 3(20.Feb ~ 27.Feb)  | BPM,Use case                 |
+| Week 4(27.Feb ~ 06.Mar)  | ERD Design                                 |
 | Week 5(06.Feb ~ 13.Feb)  | Report writing and presentation preparation |
 
 # 9. Outcome of the Project
