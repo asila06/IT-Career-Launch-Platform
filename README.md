@@ -3,13 +3,14 @@
 - Cap1: System Analysis and Design
   
 # 2. Team Information
-- Team Name: chenada
-- Team Members (Name / Student ID / Role):
- > Leader Name:     Khusnutdinova Alina           ,  Student ID:   202490372        , Group: I24B, Role: Leader, Phone Number: +998 93 512 46 37  
- > Member Name 1:       Avazbekov Abduraxmonbek         ,  Student ID:  202490056         , Group: I24B, Role: Project Manager
- > Member Name 2:        Isayev Yorkinjon        ,  Student ID:     202490139      , Group: I24B, Role:  
- > Member Name 3:        Shamsutdinov Doniyorbek        ,  Student ID: 202490285          , Group: I24A, Role:
+**Team Name:** chenada
 
+| Name    | Student ID | Group | Role            | Phone Number      |
+| ------- | ---------- | ----- | --------------- | ----------------- |
+| Khusnutdinova Alina  | 202490372  | I24B  | Leader          | +998 (93) 5124637 
+| Avazbekov Abduraxmonbek | 202490056 | I24B  | Project Manager | --
+| Shamsutdinov Doniyorbek | 202490285 | I24A  | Coder | -- 
+| Isayev Yorkinjon | 202490139 | I24B  | Ideator | --
 # 3. Project Title and Description
 - The IT Career Launch Platform is a web-based system designed to support IT students and junior specialists in gaining practical experience through real projects and guided learning.
 The platform serves as a centralized environment where students can explore available projects, apply for participation, and improve their skills through courses, while mentors and employers can post projects and manage applications.
