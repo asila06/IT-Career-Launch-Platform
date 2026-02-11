@@ -95,6 +95,6 @@ This will be recorded at the end of the project.
 # 11. References
 Tutorials, websites, or documentation used
 (This is recorded at the end of the project)
-#12. Appendix
+# 12. Appendix
 - Important code snippets             - Additional charts or tables
 (This is recorded at the end of the project)
