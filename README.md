@@ -82,7 +82,122 @@ The platform is designed for the following users:
 | Week 4(27.Feb ~ 06.Mar)  | ERD Design                                 |
 | Week 5(06.Feb ~ 13.Feb)  | Report writing and presentation preparation |
 
+# Use Case Documentation
+---
+
+#### Use Case 1: Student Applies for a Project
+
+Primary Actor: Student
+Secondary Actors: System, Mentor
+
+Description:
+- This use case describes the process of a student applying for a project posted on the platform.
+  
+Preconditions:
+* Student must be registered in the system
+* Student must be logged in
+* At least one project must exist
+  
+Main Flow:
+1. Student logs into the system.
+2. Student navigates to the “Projects” section.
+3. System displays a list of available projects.
+4. Student selects a project.
+5. Student clicks the **Apply** button.
+6. System validates the request.
+7. System creates a new record in the `applications` table.
+8. Application status is automatically set to **Pending**.
+9. Mentor receives visibility of the new application.
+    
+Alternative Flow:
+* If the student is not logged in → System redirects to login page.
+* If the project does not exist → System displays an error message.
+  
+Postconditions:
+* Application is stored in the database.
+* Application status is set to *Pending*.
+
+---
+
+#### Use Case 2: Mentor Creates a Project
+
+Primary Actor: Mentor
+Secondary Actors: System
+
+Description:
+- This use case describes how a mentor creates and publishes a new project on the platform.
+  
+Preconditions:
+* Mentor must be registered
+* Mentor must be logged in
+  
+Main Flow:
+1. Mentor logs into the system.
+2. Mentor selects **Create Project**.
+3. Mentor enters project title, description, and requirements.
+4. Mentor submits the form.
+5. System validates input fields.
+6. System saves the project into the `projects` table.
+7. Project becomes visible to students.
+   
+Alternative Flow:
+* If required fields are empty → System displays validation error.
+* If database connection fails → System displays technical error message.
+  
+Postconditions:
+* Project is successfully stored in database.
+* Students can view and apply to the project.
+
+---
+
+#### Use Case 3: Mentor Reviews and Approves Application
+
+Primary Actor: Mentor
+Secondary Actors: System, Student
+
+Description: 
+- This use case describes how a mentor reviews student applications and updates their status.
+  
+Preconditions:
+* At least one application exists
+* Mentor is logged in
+  
+Main Flow:
+1. Mentor navigates to **Applications Dashboard**.
+2. System displays list of student applications.
+3. Mentor selects a specific application.
+4. Mentor reviews student profile and details.
+5. Mentor selects either **Approve** or **Reject**.
+6. System updates the `status` field in the `applications` table.
+7. Student can see updated application status.
+   
+Alternative Flow:
+* If application is already approved/rejected → System prevents duplicate update.
+  
+Postconditions:
+* Application status is updated in database.
+* Student receives updated status information.
+
+---
+
+#### Use Case Summary Table
+
+| Use Case            | Primary Actor | Main Outcome        |
+| ------------------- | ------------- | ------------------- |
+| Apply for Project   | Student       | Application created |
+| Create Project      | Mentor        | Project published   |
+| Approve Application | Mentor        | Status updated      |
+
+---
+
+
 # Business Process Model (BPM)
+The BPM approach helped to:
+- Identify key actors and their responsibilities
+- Structure system workflows logically
+- Define database requirements
+- Prevent redundancy and process conflicts
+- By modeling business processes before technical implementation, the project demonstrates structured system development methodology.
 
 <img width="994" height="465" alt="image" src="https://github.com/user-attachments/assets/e7fbf228-c136-462d-917d-cc0de8656868" />
 <img width="877" height="475" alt="image" src="https://github.com/user-attachments/assets/c9d14cce-efee-4fa4-b89f-01d2ee0a0d6c" />
